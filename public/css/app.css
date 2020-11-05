@@ -1,0 +1,582 @@
+body{
+	background-color: #D3D3D3;
+	
+}
+nav{
+	background:#fff;
+	font-family: sans-serif;
+	height: 12vh;
+	width:97.6%;
+	position: fixed;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 2;
+	box-shadow: 0px 0px 2px 0px gray;
+}
+.nav-links{
+	list-style: none;
+	display: flex;
+	height: 100%;
+	width:60%;
+	font-weight:700;
+	justify-content: space-around;
+	align-items: center;
+}
+.individualproduct p{
+	color: green;
+}
+.individualproduct h3{
+	text-align: left;
+}
+.individualproduct .fa{
+	margin-left: 1px;
+}
+.img{
+	width: 30px;
+	height: 30px;
+}
+.table{
+	background-color: #fff;
+	height: auto;
+	padding: 0px;
+}
+.tablefooter{
+	margin-bottom: 0px;
+}
+p{
+    text-align: left;
+	font-family: 'lato',sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	margin-left: 5px;
+	margin-right: 5px;
+	
+}
+.p{
+	font-size: 14px;
+	margin: 2px;
+}
+.fa{
+margin: 5px;
+font-family: lato;
+background-color: 
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+a:hover{
+	color: #000;
+	text-decoration: none;
+	
+}
+.otherfa{
+	font-size: 14px;
+	padding: 5px;
+	margin: 05px;
+	color:green;
+	background-color:#fff;
+	border-radius:14px; 
+}
+.header{
+margin: 50px;
+}
+h3{
+	text-align: center;
+	font-family: 'lato',sans-serif;
+	font-weight: 700;
+	margin: 20px;
+}
+h1{
+	text-align: center;
+	font-family: 'lato',sans-serif;
+	font-weight: 700;
+}
+h2{
+	margin: 0px 10px 0px  10px;
+}
+h6{
+    text-align:left;
+	font-family: 'lato',sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.White{
+	background-color: #fff;
+	padding: 20px;
+
+	
+}
+
+.centerfooter{
+	margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+
+}
+.centeritem{
+width: 50%;
+margin-left: auto;
+  margin-right: auto;
+}
+.centeritem1{
+width: 40%;
+margin-left: auto;
+  margin-right: auto;
+}
+hr{
+	background-color: #fff;
+	width:50%;
+	margin-right: 50%;
+}
+b{
+	text-transform: uppercase;
+}
+button{
+	margin: 20px;
+}
+tr{
+	height: 35px;
+	width:35px;
+}
+.footerfa{
+    font-size: 16px;
+	padding: 0px;
+	margin: auto;
+	color:brown; 
+	margin: 05px;
+}
+.newsbox{
+	background-color: #fff;
+
+}
+.news{
+	padding: 10px;
+	font-weight: 500;
+	
+}
+h5{
+	text-align: center;
+	margin: 10px;
+}
+#header1{
+background-color: #fff;
+padding:1px;
+margin-bottom:1px;
+}
+#header{
+background-color: #fff;
+padding:1px;
+margin-bottom:1px;
+}
+#header{
+background-color: #fff;
+padding:1px;
+margin-bottom:1px;
+}
+#mainproducts{
+	background-color: #fff;
+	margin-bottom: 10px;
+	width:100%;
+	padding:2px 0px 0px 0px ;
+	
+}
+#agriculturalproducts{
+	background-color: #fff;
+	margin-bottom: 10px;
+	width:100%;
+	padding:2px 0px 0px 0px ;
+	
+}
+#featuredproducts{
+	background-color: #fff;
+	margin-bottom: 10px;
+	width:100%;
+	padding:2px 0px 0px 0px ;
+	
+}
+section h3{
+	margin:20px;
+	}
+.trending{
+	margin-top: 50px;
+	text-align: center;
+	background-color: green;
+	width:180px;
+
+}
+.txt{
+	font-size: 12px;
+	padding-left: 0px;
+	padding-right: auto;
+
+
+}
+img{
+	border-radius: 5px;
+}
+
+.div{
+	padding: 5px 15px 15px 15px;
+	width:100%;
+	height: 320px;
+	background-color: #fff;
+	
+}
+.card-header{
+	text-align: center;
+}
+.card-header h5{
+	background-color: #2C5F2D;
+	color: #77DD77;
+	padding: 5px 5px 5px 5px;
+	border-radius: 5px;
+}
+
+.divimg{
+	height: 190px;
+}
+.divimg .fa{
+	color:green;
+	display: none;	
+}
+.divfooter{
+	margin-bottom:10px;
+}
+
+.productdiv{
+	padding:5px;
+	}
+
+.leftarrow{
+	position: absolute;
+	left: 0px;
+	top: 40%;
+}
+.rightarrow{
+	position: absolute;
+	right: 0px;
+	top: 40%;
+}
+
+.right{
+	height: 30px;
+	width:30px;
+	position: absolute;
+	background-color: #fff;
+	top: 40%;
+	right: 0px;
+}
+.left{
+	height: 40px;
+	width:40px;
+	background-color: #fff;
+	position: absolute;
+	top: 40%;
+	left: 0px;
+}
+.div .divimg .row{
+margin-left: 35%;
+text-align: center;
+}
+.col{
+  	display:none;
+  	width:10%;
+  	margin:0px 10px 0px 20px;
+  	padding: 2px;
+  	font-size: 10px;
+  	border:1px solid red;
+  	}
+  	.div:hover{ 
+  box-shadow:0px 0px 1px 0px  gray;
+  
+  }
+  	 .productdiv:hover  .col{
+  	display:block;
+  	
+  }
+  .productdiv:hover  .divimg .fa{
+	color:green;	
+  	display:block;
+  	
+  }
+  .load{
+  	display: none;
+  }
+  .row{
+  	margin:0px auto 0px auto;
+  }
+  .individualimg{
+  	width:80%;
+  }
+  .individualproduct{
+  	background-color: #fff;
+  	padding: 30px 50px 30px 50px;
+  	margin-top: 20px;
+  }
+  .cart{
+  	margin-top: -03px;
+  	padding-top: 2px;
+  	padding-bottom: 2px;
+  	margin-left: 0px;
+  	width:80%;
+  }
+  #top{
+  	position:relative; 
+
+  }
+  .left1{
+  	position:absolute;
+  	left: 0px;
+	top: 40%;
+  }
+  .right1{
+  	position:absolute;
+  	right: 15px;
+	top: 40%;
+
+  }
+  #top #right1{
+  	position:absolute;
+  	top:40%;
+  	right: 05%;
+  	height: 0px;
+  	width: 0px;
+  	
+  }
+  #top .fa{
+  	
+  	font-size: 30px;
+  	color: #fff;
+  	border-radius: 20px;
+  }
+  #top #left1{
+  	position:absolute;
+  	top:40%;
+  	left: 05%;
+  	height: 0px;
+  	width: 0px;
+  	background-color: #fff;
+  }
+  .footer{
+  	background-color: #050A30;
+  	color: #fff;
+  	font-family: lato;
+  	color: #fff;
+  	font-weight: 700;
+  	text-align: center;
+  	width: 100%;
+  }
+  .footer .row{
+	padding:50px;
+	margin: auto;
+  }
+  .cartmobileview{
+  	display: none;
+  }
+  #top img{
+  	width:100%;
+  	height:390px;
+  }
+@media screen and (max-width: 768px) {
+	nav{
+		position:relative;
+		margin-top: -50px;
+		width:98%;
+		position:fixed;
+
+	}
+	.hamberger{
+		position:absolute;
+		right: 10%;
+		top: 1%;
+		transform: translate(-10%,-1%);
+		z-index: 2;
+	}
+	.line{
+		width:30px;
+		height: 5px;
+		background:#000;
+		margin: 5px;
+	}
+.nav-links{
+	position: fixed;
+	flex-direction: column;
+	z-index: 2;
+	background:#fff;
+	width:100%;
+	clip-path: circle(100px at 80% -5%);
+	-webkit-clip-path: circle(100px at 80% -5%);
+	transition: all 1s ease-out;
+}
+.nav-links.open{
+	clip-path: circle(1000px at 80% -9%);
+	-webkit-clip-path: circle(1000px at 80% -9%);
+	}
+	section{
+		width:100%;
+		margin:0px;
+	}
+	#header1{
+	display: none;
+}
+#header{
+	display: none;
+}
+	#top{
+		display: none;
+	}
+  .center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+}
+#mainproducts{
+	background-color: #D3D3D3;
+	margin:20px 0px 0px 0px;
+}
+#agriculturalproducts{
+	background-color: #D3D3D3;
+	margin:0px;
+	
+}
+#featuredproducts{
+	background-color: #D3D3D3;
+	margin:0px;
+	
+}
+.productdiv{
+  width:50%;
+  height:auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 2px;
+  }
+  
+  .div{
+	background-color: #fff;
+	padding: 2px 5px 5px 5px;
+	width:100%;
+	height: 270px;
+}
+.rightarrow{
+display: none;
+}
+.leftarrow{
+display: none;
+}
+.otherfa{
+	font-size: 8px;
+	padding: 2px;
+	margin: auto 02px 02px 02px;
+	margin: 02px;
+	color:green;
+	background-color:#fff;
+	border-radius:8px; 
+}
+.individualproduct{
+  	background-color: #fff;
+  	padding: 10px 10px 10px 10px;
+  	margin-top: 40px;
+  }
+  .cart{
+  	margin-top: 5px;
+  	padding-top: 5px;
+  	padding-bottom: 5px;
+  	margin-left: 0px;
+  	width:70%;
+  }
+br{
+	display: none;
+}
+.cartdesktopview{
+	display: none;
+}
+.cartmobileview {
+  	display: block;
+  	margin-top: 25px;
+  }
+.divimg{
+	height: 150px;
+}
+.leftarrow{
+	position: absolute;
+	left: 0px;
+	top: 15%;
+}
+.rightarrow{
+	position: absolute;
+	right: 0px;
+	top: 15%;
+}
+
+.right{
+	height: 30px;
+	width:30px;
+	position: absolute;
+	background-color: #fff;
+	top: 40%;
+	right: 0px;
+}
+.left{
+	height: 40px;
+	width:40px;
+	background-color: #fff;
+	position: absolute;
+	top: 40%;
+	left: 0px;
+}
+.div .divimg .row{
+margin-left: 35%;
+}
+.col{
+  	display:none;
+  	width:10%;
+  	margin:0px 10px 0px 10px;
+  	padding: 2px;
+  	font-size: 10px;
+  	border:1px solid red;
+  	}
+  	 .productdiv  .col{
+  	display:block;
+  	margin:05px 05px 05px 10px;
+  	
+  }
+  .productdiv  .divimg .fa{
+	color:green;	
+  	display:block;
+  	margin:05px 05px 05px 10px;
+  	
+  }
+  .btn{
+  	display: block;
+  	width:100%;
+  	font-size: 12px;
+  }
+  button{
+		margin-top:-05px;
+		margin-left: auto;
+        margin-right: auto;
+	}
+	.footer .row{
+	padding:20px 0px 0px 0px;
+	margin: auto;
+  }
+  .footer .row .col-md-3{
+	width:50%;
+	padding:10px 1px 10px 1px;
+	margin-bottom: 20px;
+  }
+  .footer hr{
+  	display: none;
+  }
+}
