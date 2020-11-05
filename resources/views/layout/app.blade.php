@@ -85,13 +85,13 @@
     <div class="line"></div>
     <div class="line"></div>
   </div>
-    <li>Home</li>
-    <li>Blog</li>
-    <li>Our Vendors</li>
-    <li>Our Services</li>
-    <li>Login</li>
-    <li>Cart</li>
-    <li>FAQs</li>
+    <li><a href="/" style="color: #000;">Home</a></li>
+    <li><a href="blog" style="color: #000;">Blog</a></li>
+    <li><a href="#" tabindex="-1" aria-disabled="true" style="color: #000;">Our Vendors</a></li>
+    <li><a href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #000;">Our Services</a></li>
+    <li><a class="nav-link" href="register" tabindex="-1" aria-disabled="true" style="color: #000;">Login</a></li>
+    <li><a href="carts" tabindex="-1" aria-disabled="true" style="color: #000;"><i class="fa fa-cart-plus"></i>Cart</a></li>
+    <li><a href="#" tabindex="-1" aria-disabled="true" style="color: #000;">FAQs</a></li>
    </ul> 
 </nav>
 </div>
